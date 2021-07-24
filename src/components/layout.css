@@ -1,21 +1,14 @@
-@import "./typeface.css";
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
 
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Inter", georgia, serif;
+  font-family: "Inter", helvetica, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
-  margin: 0;
-}
-
-@import url('https://rsms.me/inter/inter.css');
-html { box-sizing: border-box;
-  overflow-y: scroll; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

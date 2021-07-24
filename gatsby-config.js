@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Breaking Some Eggs`,
     description: `Scrambled eggs, content creation and art.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `@aholtzman`,
+    siteUrl: `https://breakingsomeeggs.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
