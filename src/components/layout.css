@@ -1,5 +1,16 @@
+@import "./typeface.css";
+
+body {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: "Inter", georgia, serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  margin: 0;
+}
+
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif;   box-sizing: border-box;
+html { box-sizing: border-box;
   overflow-y: scroll; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
