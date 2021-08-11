@@ -1,8 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import styled from "styled-components"
-import Carton from "../assets/egg_carton.svg"
 import HeaderNavItem from "./header_nav_item"
 import HeaderMobileNav from "./header_mobile_nav"
 

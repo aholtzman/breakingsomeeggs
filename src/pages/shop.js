@@ -9,12 +9,14 @@ import Bag from "../images/merch_bag.jpeg"
 const Shop = () => (
   <Layout>
     <Seo title="Shop" />
-    <h1 style={{ textAlign: "center"}}>Visit Our Merch & Prints Shops</h1>
+    <h1 style={{ textAlign: "center"}}>Visit BSE Shops</h1>
     <h2><a href="https://breaking-some-eggs.creator-spring.com/">Browse Merch</a></h2>
-    <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={TShirt} alt="tshirt with logo" /></a>
-    <A href="https://breaking-some-eggs.creator-spring.com/"><Image src={Socks} alt="socks with logo" /></A>
-    <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={Bag} alt="bag with logo" /></a>
-    <h2><a href="" >Browse Fine Art Prints & Photographs</a></h2>
+    <div style={{ display: "flex", justifyContent: "space-between"}}>
+      <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={TShirt} alt="tshirt with logo" /></a>
+      <A href="https://breaking-some-eggs.creator-spring.com/"><Image src={Socks} alt="socks with logo" /></A>
+      <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={Bag} alt="bag with logo" /></a>
+    </div>
+    <h2><p href="" >Browse Fine Art Prints & Photographs</p></h2>
     <p>to come</p>
   </Layout>
 )
@@ -30,7 +32,7 @@ const A = styled.a`
 `
 
 const Image = styled.img`
-  max-width: 190px;
+  max-width: 100%;
   margin: auto;
 
   @media(max-width: 768px) {
