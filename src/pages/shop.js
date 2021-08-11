@@ -9,7 +9,7 @@ import Bag from "../images/merch_bag.jpeg"
 const Shop = () => (
   <Layout>
     <Seo title="Shop" />
-    <h1 style={{ textAlign: "center"}}>Visit Our Merch & Pints Shops</h1>
+    <h1 style={{ textAlign: "center"}}>Visit Our Merch & Prints Shops</h1>
     <h2><a href="https://breaking-some-eggs.creator-spring.com/">Browse Merch</a></h2>
     <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={TShirt} alt="tshirt with logo" /></a>
     <A href="https://breaking-some-eggs.creator-spring.com/"><Image src={Socks} alt="socks with logo" /></A>
