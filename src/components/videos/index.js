@@ -17,7 +17,7 @@ export default function Videos() {
   },[])
 
   return (
-    <>
+    <div style={{ paddingBottom: "2rem "}}>
     {
       data.map(v =>
         {
@@ -39,6 +39,6 @@ export default function Videos() {
       }
     )
     }
-    </>
+  </div>
   )
 }
