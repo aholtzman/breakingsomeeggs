@@ -9,15 +9,12 @@ import Bag from "../images/merch_bag.jpeg"
 const Shop = () => (
   <Layout>
     <Seo title="Shop" />
-    <h1 style={{ textAlign: "center"}}>Visit BSE Shops</h1>
-    <h2><a href="https://breaking-some-eggs.creator-spring.com/">Browse Merch</a></h2>
+    <h2><a href="https://breaking-some-eggs.creator-spring.com/" target="_blank" rel="noopener noreferrer">Browse BSE Merch</a></h2>
     <div style={{ display: "flex", justifyContent: "space-between"}}>
-      <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={TShirt} alt="tshirt with logo" /></a>
-      <A href="https://breaking-some-eggs.creator-spring.com/"><Image src={Socks} alt="socks with logo" /></A>
-      <a href="https://breaking-some-eggs.creator-spring.com/"><Image src={Bag} alt="bag with logo" /></a>
+      <a href="https://breaking-some-eggs.creator-spring.com/" target="_blank" rel="noopener noreferrer"><Image src={TShirt} alt="tshirt with logo" /></a>
+      <A href="https://breaking-some-eggs.creator-spring.com/" target="_blank" rel="noopener noreferrer"><Image src={Socks} alt="socks with logo" /></A>
+      <a href="https://breaking-some-eggs.creator-spring.com/" target="_blank" rel="noopener noreferrer"><Image src={Bag} alt="bag with logo" /></a>
     </div>
-    <h2><p href="" >Browse Fine Art Prints & Photographs</p></h2>
-    <p>to come</p>
   </Layout>
 )
 
