@@ -18,6 +18,26 @@ const data = [
   {
     video: "https://www.youtube.com/embed/-Lj25R6Nfi8",
     title: "Episode 5"
+  },
+  {
+    video: "https://www.youtube.com/embed/wuZN3KS3li0",
+    title: "Episode 6"
+  },
+  {
+    video: "https://www.youtube.com/embed/KGzSsFMqK94",
+    title: "Episode 7"
+  },
+  {
+    video: "https://www.youtube.com/embed/pR-shm4WItI",
+    title: "Episode 8"
+  },
+  {
+    video: "https://www.youtube.com/embed/oyMKVmno0xQ",
+    title: "Episode 9"
+  },
+  {
+    video: "https://www.youtube.com/embed/TaEZ2ho4JhY",
+    title: "Episode 10"
   }
 ]
 
