@@ -14,7 +14,7 @@ const Support = () => (
     <h1 style={{ textAlign: "center", margin: "2rem 0" }}>Support Breaking Some Eggs</h1>
     <P><Logo src={Patreon} alt=""/><A href="https://www.patreon.com/breakingsomeeggs" target="_blank" rel="noopener noreferrer" >Patreon</A></P>
     <P><Logo src={BuyCoffee} alt="" /><A href="https://www.buymeacoffee.com/breakingeggs" target="_blank" rel="noopener noreferrer" >Buy Me a Coffee</A></P>
-    <P><Logo src={KickStarter} alt=""/><A target="_blank" rel="noopener noreferrer" >Kickstarter (in the works)</A></P>
+    <P><Logo src={KickStarter} alt=""/><A href="https://www.kickstarter.com/projects/breakingsomeeggs/breaking-some-eggs" target="_blank" rel="noopener noreferrer" >Kickstarter</A></P>
     <P>
       <Logo src={PayPal} alt="Pay Pal" />
       <form action="https://www.paypal.com/donate" method="post" target="_top" style={{ margin: "auto 0"}}>
